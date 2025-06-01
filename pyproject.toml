@@ -1,0 +1,17 @@
+[project]
+name = "infector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+]
+
+[project.scripts]
+infector = "infector:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
